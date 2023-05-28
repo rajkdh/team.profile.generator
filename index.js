@@ -150,7 +150,7 @@ function createHTML() {
     clearInterval(loader);
         }, 5000);
 
-fs.writeFile("./dist/new-team.html", createTeam(teamMembers))
+fs.writeFile("./dist/new-team.html", createTeam(teamMembers), "UTF-8")
     
 
 
