@@ -35,7 +35,9 @@ Clone this repo.
 
 
 ## Credit
-N/A
+* NodeJS: https://nodejs.org/en/
+* Jest: https://www.npmjs.com/package/jest
+* Inquirer: https://www.npmjs.com/package/inquirer
 
 ## License
     
