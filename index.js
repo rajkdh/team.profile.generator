@@ -143,22 +143,16 @@ function addManager() {
   
   }
 function createHTML() {
-    const P = ['\\', '|', '/', '-'];
-    let x = 0;
-    const loader = setInterval(() => {
-    process.stdout.write(`\r${P[x++]}`);
-    x %= P.length;
-    }, 250)
+  
 
-    setTimeout(() => {
-    clearInterval(loader);
-        }, 5000);
-
-fs.writeFile("./dist/new-team.html", createTeam(teamMembers), "UTF-8")
+return fs.writeFile("./dist/new-team.html", createTeam(teamMembers),function (err) {
+  if (err) throw err;               console.log('Results Received');
+}); 
     
 
 
 }
+
 buildTeam();  
 
 

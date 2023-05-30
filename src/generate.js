@@ -26,7 +26,7 @@ const createTeam = team => {
     <div class="card-body">
         <ul class="list-group">
             <li>ID: ${engineer.getId()}</li>
-            <li>Email:${manager.getEmail()}</li>
+            <li>Email:${engineer.getEmail()}</li>
             <li class="list-group-item">GitHub: ${engineer.getGithub()}</li>
         </ul>           
     </div>
@@ -69,5 +69,35 @@ const generateIntern = intern => {
 
     return html.join("");
 
-};
+}
 
+module.exports = team => {
+
+    return `
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class= container>
+        <div class=>           
+                <h1 class="text-center text-white">My Team</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="team">
+                ${createTeam(team)}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+    `;
+};
