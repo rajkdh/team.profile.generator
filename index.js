@@ -66,7 +66,7 @@ function addEngineer(){
         tpye: 'input',
         name: 'engineerGithub',
         message: 'What is their gitHub profile username?'
-    },
+    }
 ]).then(answers => {
     const engineer = new Engineer(answers.engineerName, answers.engineerEmail, answers.engineerGithub);
     teamMembers.push(engineer);
@@ -146,7 +146,7 @@ function createHTML() {
   
 
 return fs.writeFile("./dist/new-team.html", createTeam(teamMembers),function (err) {
-  if (err) throw err;               console.log('Results Received');
+  if (err) throw err;               console.log('Team Created');
 }); 
     
 
