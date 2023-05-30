@@ -13,7 +13,7 @@ function run() {
         type: 'list',
         name: "employeeType",
         message: 'Please select the position of your employee:',
-        choices: ['Manager', 'Engineer', 'Intern']
+        choices: ['Manager', 'Engineer', 'Intern', 'Exit']
     }]).then(function (userInput) {
         switch(userInput.employeeType){
 
@@ -35,8 +35,12 @@ function run() {
             
             break;
 
-            default:
-                createHTML();
+            case 'Exit':
+
+               createHTML();
+               
+
+            
 
         }
     })
