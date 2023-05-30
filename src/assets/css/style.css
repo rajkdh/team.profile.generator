@@ -1,0 +1,58 @@
+body {
+    background-color: cornsilk;
+}
+.banner{
+    background-color: peru;
+    text-align: center;
+    padding: 3px;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: large;
+}
+.card{
+    background-color: lightcyan;
+    width: 250px;
+    border-radius: 8px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+.card-header{
+    background-color: lightskyblue;
+    padding: 1px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+h2{
+    position: relative;
+    left: 15px;
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+h3{
+    position: relative;
+    left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    color: lightslategray;
+
+}
+.list-details{
+    list-style: none;
+    word-spacing: 1px;
+    padding-inline-start: 0px;
+}
+.list-details li{
+    border-style: ridge;
+    border-width: 2px;
+    padding: 5px;
+    margin: 5px;    
+    border-color: white;
+}
