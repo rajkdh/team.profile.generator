@@ -18,28 +18,28 @@
  <!--engineer card  -->
 <div class="card" id="engineer-card">
     <div class="card-header" id="engineer">
-        <h2>Susan</h2>
-        <h3>Engineer</h3>
+        <h2>${engineer.getName()}</h2>
+        <h3>${engineer.getRole()}</h3>
     </div>
     <div class="list">
         <ul class="list-details">
-            <li>ID: 2453</li>
-            <li>Email: <a href="mailto:rajvir.dhanoa01@gmail.com">sample@email.com</a></li>
-            <li>Github: <a href="https://github.com/">ajskfja</a></li>
+            <li>ID:  ${engineer.getId()}</li>
+            <li>Email: <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></li>
+            <li>Github: <a href="https://github.com/${engineer.getGithub()}">${engineer.getGithub()}</a></li>
         </ul>
     </div>
 </div>
 <!-- Intern Card -->
 <div class="card" id="intern-card">
     <div class="card-header" id="intern">
-        <h2>Susan</h2>
-        <h3>Intern</h3>
+        <h2>${intern.getName()}</h2>
+        <h3>${intern.getRole()}</h3>
     </div>
     <div class="list">
         <ul class="list-details">
-            <li>ID: 2453</li>
-            <li>Email: <a href="mailto:rajvir.dhanoa01@gmail.com">sample@email.com</a></li>
-            <li>School: </li>
+            <li>ID: ${intern.getId()}</li>
+            <li>Email: <a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></li>
+            <li>School: ${intern.getSchool()}</li>
         </ul>
     </div>
 </div>
@@ -47,14 +47,14 @@
 <!-- Manager Card -->
 <div class="card" id="manager-card">
     <div class="card-header" id="manager">
-        <h2>Susan</h2>
-        <h3>Manager</h3>
+        <h2>${manager.getName()}</h2>
+        <h3>${manager.getRole()}</h3>
     </div>
     <div class="list">
         <ul class="list-details">
-            <li>ID: 2453</li>
-            <li>Email: <a href="mailto:rajvir.dhanoa01@gmail.com">sample@email.com</a></li>
-            <li>Office Number: </li>
+            <li>ID: ${manager.getId()}</li>
+            <li>Email: <a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></li>
+            <li>Office Number: ${manager.getOfficeNumber()}</li>
         </ul>
     </div>
 </div>  
