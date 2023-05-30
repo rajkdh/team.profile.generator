@@ -1,6 +1,6 @@
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<h1 align="center">Team Profilr Generator</h1>
+<h1 align="center">Team Profile Generator</h1>
 
 <details>
   <summary>Table of Contents</summary>
@@ -35,7 +35,8 @@ node index.js
 ```
 <br>
 <br>
-![team-profile-generator-demo (2)](https://github.com/rajkdh/team.profile.generator/assets/112664790/dcf626e8-862d-48c3-bfd5-b94498f5a993)
+
+![team-profile-generator-demo](https://github.com/rajkdh/team.profile.generator/assets/112664790/9add2221-61a9-41d2-9db9-09130d80fb76)
 
 
 ## Credit
