@@ -25,14 +25,17 @@ project is still in its development stage (current unfunctional).
 ## Installation
 Following dependecies are required:
 ```
-npm i
+npm i inquirer@8.2.4
 ```
 
 ## Usage
-Clone this repo.
+Clone this repo and run the following command in your command line:
+```
+node index.js
+```
 <br>
 <br>
-
+![team-profile-generator-demo (2)](https://github.com/rajkdh/team.profile.generator/assets/112664790/dcf626e8-862d-48c3-bfd5-b94498f5a993)
 
 
 ## Credit
