@@ -19,8 +19,7 @@
 
 ## About The Project
 This application allows usering to generate simple cards with the details of employees on their team. 
-<br>
-project is still in its development stage (current unfunctional).
+
 
 ## Installation
 Following dependecies are required:
