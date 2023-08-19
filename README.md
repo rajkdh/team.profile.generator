@@ -18,7 +18,7 @@
 </details>
 
 ## About The Project
-This application allows usering to generate simple cards with the details of employees on their team. 
+This application allows users to generate simple cards with the details of employees on their team. 
 
 
 ## Installation
